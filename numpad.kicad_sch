@@ -1,0 +1,94 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "28725f22-903e-41d8-a857-bc40f1f4f4a8")
+	(paper "A3")
+	(title_block
+		(title "numpad")
+		(date "2024-12-23")
+		(rev "V1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 265.43 97.79)
+		(size 105.41 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17d24c83-f1ed-4d53-8314-61c66f0ca4aa")
+		(property "Sheetname" "OTHER"
+			(at 265.43 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OTHER.kicad_sch"
+			(at 265.43 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "numpad"
+				(path "/28725f22-903e-41d8-a857-bc40f1f4f4a8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 265.43 34.29)
+		(size 105.41 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b073aaf1-42c1-479f-b938-8df896187a38")
+		(property "Sheetname" "MCU"
+			(at 265.43 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 265.43 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "numpad"
+				(path "/28725f22-903e-41d8-a857-bc40f1f4f4a8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,240 @@
+(footprint "LED0805-R-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "53431b00-6fc1-459a-a3a8-56edaa923f50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED0805-R-RD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "60333b40-1d81-4000-bb2b-da70723d3af5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60796cf6-3cf1-487e-8593-26fa39aa08e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0df1e1cb-5f81-49f9-b564-f7de5b01c092")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bae9a93a-b1c4-4eaa-bada-8df3dd7e6c75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.22 -0.64)
+		(end -1.84 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d128049-fe42-495e-b2b9-be08226bbef9")
+	)
+	(fp_line
+		(start -2.22 0.63)
+		(end -2.22 -0.64)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d10520b7-ed65-44d3-b057-73c11deb2b5a")
+	)
+	(fp_line
+		(start -1.84 -1.02)
+		(end -0.32 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a85093f-efeb-440c-bf54-f2567c2bb737")
+	)
+	(fp_line
+		(start -1.81 1.04)
+		(end -2.22 0.63)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "763ed45e-2d92-4c36-85be-e34807a2634d")
+	)
+	(fp_line
+		(start -0.34 1.04)
+		(end -1.81 1.04)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89a2f2fe-8b5e-4b78-bca3-1e0cbe6e1d82")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end -0.2 0.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ad45e1a-2e88-440c-a557-fbb28b591dca")
+	)
+	(fp_line
+		(start -0.2 -0.1)
+		(end -0.3 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9804629d-6482-451a-9fab-95a077f4843a")
+	)
+	(fp_line
+		(start -0.2 0.1)
+		(end 0.2 0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "488b64e3-a9c7-4e78-90ea-812eca8df561")
+	)
+	(fp_line
+		(start 0.2 -0.5)
+		(end -0.2 -0.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58867b40-f82b-4832-b9a2-62431cea14b3")
+	)
+	(fp_line
+		(start 0.2 -0.5)
+		(end 0.2 0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fbc5e5d-0122-4522-9747-92ef02b2a264")
+	)
+	(fp_line
+		(start 0.45 1.02)
+		(end 2 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dea026db-8229-4bf8-a710-25e3ba69ac6d")
+	)
+	(fp_line
+		(start 2 -1.02)
+		(end 0.45 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12d16e21-d703-46e1-9dea-69d5796b6c32")
+	)
+	(fp_line
+		(start 2 1.02)
+		(end 2 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fc6548a-3ed5-4fd4-876b-8647794aa874")
+	)
+	(fp_circle
+		(center 1 -0.63)
+		(end 1.03 -0.63)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d71776bc-2277-4ef3-8979-5e3f42a16704")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "be5dcb33-fff3-431b-bfe6-5349140132d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.05 0 180)
+		(size 1 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4fe3c545-d50f-4842-b4af-3dfa3902d180")
+	)
+	(pad "2" smd rect
+		(at -1.05 0 180)
+		(size 1 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "59dc34b9-c2eb-4c37-bcbf-fc15850529a2")
+	)
+	(model "C:/Users/Nateb/Documents/Linux_Adventure/Custom_Numpad/numpad_pcb/numpad_lib/leds/green_led.3dshapes/LED0805-RD.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

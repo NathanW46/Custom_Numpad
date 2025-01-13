@@ -1,0 +1,138 @@
+(footprint "LED-SMD_L3.2-W2.8-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b2335a90-bce6-4d8f-87d4-fe43e596fe27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_L3.2-W2.8-TR"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "5763a885-2fd5-4659-8f4c-4068685a08f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3b96098c-01e8-47ad-975a-872f63052a43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4d8bd745-0376-49c4-9fff-21f5367e5550")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fc0c7c2d-d252-49d6-8713-a76a0ea203f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.3 1.5)
+		(end -3.4 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8a1399f7-fdf1-4743-bba1-80894c3232c5")
+	)
+	(fp_rect
+		(start -1.65 -1.45)
+		(end 1.65 1.45)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "0fe95da2-cf3b-4549-b888-6212dad80919")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(uuid "a3dc9021-4066-4e33-b053-48f296bf530f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.9 0.75 270)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "867414da-ceb6-450a-92da-632f2350e104")
+	)
+	(pad "2" smd rect
+		(at -2.9 -0.75 270)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e30b71f4-e296-462a-b51f-ca441616f220")
+	)
+	(pad "3" smd rect
+		(at 2.9 -0.75 270)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "4d000ae1-75a2-4971-9177-6204ffcac4f3")
+	)
+	(pad "4" smd rect
+		(at 2.9 0.75 270)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e7dd0fc8-0f37-489d-b493-0491c46da833")
+	)
+	(model "C:/Users/Nateb/Documents/Linux_Adventure/Custom_Numpad/numpad_pcb/numpad_lib/leds/rgb_led.3dshapes/LED-SMD_L3.2-W2.8-TR.wrl"
+		(offset
+			(xyz 0 -0 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,225 @@
+(footprint "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.5 0 90)
+		(layer "F.SilkS")
+		(uuid "a695ca9f-57c4-428c-b66b-66bf6f1f04f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+		(at 0 7.53 0)
+		(layer "F.Fab")
+		(uuid "75eecfd0-9da1-4887-ab20-34cc3e8c1e74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e147279-74e3-4ccd-a190-ea3c064318a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f69d9470-85ef-4674-83cb-e02d93ee8313")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "043bea1c-6d8f-498c-b7a5-6a656b7f008d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.64 -2.18)
+		(end -2.64 2.18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69fe272d-7c22-4176-89ee-4694ac5cbcff")
+	)
+	(fp_line
+		(start -2.64 2.18)
+		(end 2.64 2.18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41fe3267-978c-4247-a183-45b4291c690a")
+	)
+	(fp_line
+		(start 2.64 -2.18)
+		(end -2.64 -2.18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b937caf9-5972-4b8f-bf10-c62694de913e")
+	)
+	(fp_line
+		(start 2.64 2.18)
+		(end 2.64 -2.18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "840fa7ea-5bb1-49a7-848a-5a6b7c5bbd36")
+	)
+	(fp_circle
+		(center -2.67 3.53)
+		(end -2.52 3.53)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4f35346d-32ea-47af-9f61-cb265d93ea59")
+	)
+	(fp_circle
+		(center -1.91 1.42)
+		(end -1.76 1.42)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "02c819b0-ef68-49e1-b209-f380a5e5b9f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9f72d67c-80a5-4adf-a8f8-0dc9c6ea581c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e6f84e5f-4e52-474b-a087-6d49cb87a537")
+	)
+	(pad "2" smd oval
+		(at -0.63 3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c7911e58-cf8c-49d4-a622-5cf6ab9fa749")
+	)
+	(pad "3" smd oval
+		(at 0.63 3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e327a11f-0086-4fe9-a79d-50a222b16de4")
+	)
+	(pad "4" smd oval
+		(at 1.9 3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a76b872f-382a-4182-bdd7-f592fa2f1f37")
+	)
+	(pad "5" smd oval
+		(at 1.9 -3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a8c62df3-b9fc-4c29-a167-4f254dec588c")
+	)
+	(pad "6" smd oval
+		(at 0.63 -3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d5d6facc-2b29-4c59-a977-6e03a16638b7")
+	)
+	(pad "7" smd oval
+		(at -0.63 -3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0949575d-d24f-42b4-91a7-183c1116bbfe")
+	)
+	(pad "8" smd oval
+		(at -1.91 -3.53)
+		(size 0.63 2.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1fce6b7-0c65-4644-99a0-bbfb2113c64b")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "65da01d3-fd24-44ba-9adb-74b2039b17e6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.64 -2.18) (xy -2.64 -2.18) (xy -2.64 2.18) (xy 2.64 2.18)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/numpad_lib/mcu/128Mbit.3dshapes/SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
